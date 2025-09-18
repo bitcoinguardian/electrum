@@ -1,6 +1,6 @@
 # Guardian Address Plugin for Electrum
 
-This fork of Electrum implements the Guardian Address protocol, a proposed Bitcoin Improvement Proposal (BIP) for physical coercion resistance through on-chain signaling.
+This fork of Electrum implements support for Guardian Address, a proposed Bitcoin Improvement Proposal (BIP) for physical coercion resistance through on-chain signalling.
 
 ## Development Setup
 
@@ -19,7 +19,7 @@ pip install -e .
 
 The Guardian plugin will be automatically loaded. Access it via **Tools → Guardian Settings**.
 
-## Guardian Address Protocol
+## Guardian Address Signal Protocol
 
 This implementation follows the draft BIP specification for Guardian Addresses - a physical coercion resistance mechanism for Bitcoin wallets.
 
